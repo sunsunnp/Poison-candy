@@ -4,18 +4,14 @@
 
 @font-face {
     font-family: 'fc_subject_roundedbold';
-    src: url('FC Subject Rounded Bold [Non-commercial use].eot');
-    src: url('FC Subject Rounded Bold [Non-commercial use].eot?#iefix') format('embedded-opentype'),
-         url('FC Subject Rounded Bold [Non-commercial use].ttf') format('truetype');
+    src: url('FC Subject Rounded Bold [Non-commercial use].ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'fc_subject_roundedregular';
-    src: url('FC Subject Rounded Regular [Non-commercial use].eot');
-    src: url('FC Subject Rounded Regular [Non-commercial use].eot?#iefix') format('embedded-opentype'),
-         url('FC Subject Rounded Regular [Non-commercial use].ttf') format('truetype');
+    src: url('FC Subject Rounded Regular [Non-commercial use].ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }

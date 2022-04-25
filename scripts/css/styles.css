@@ -1,6 +1,108 @@
+@font-face {
+  font-family: 'fc_subject_rounded_bold';
+  src: url('../../fonts/FC_subject_rounded_bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'fc_subject_rounded_regular';
+  src: url('../../fonts/FC_subject_rounded_regular.ttf') format('truetype');
+}
+
+้html,
+body {
+  font-family: 'fc_subject_rounded_regular';
+}
+
 .bg-home {
-    background-image: url('../../images/BG-Home.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-  }
+  background-image: url('../../images/BG-Home.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.navbar-brand {
+  margin-left: 2rem;
+  margin-right: 0.1rem !important;
+}
+
+.nav-title {
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  font-size: 1.25rem;
+  font-weight: bolder;
+  text-decoration: none !important;
+  white-space: nowrap;
+}
+
+.nav-bg {
+  background-color: #ffd320;
+  border-bottom: 3px solid black;
+}
+
+.home-btn {
+  width: 155px;
+  height: 42px;
+  background-image: url("../../images/HOME\ ICON.png");
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home-btn:hover {
+  width: 155px;
+  height: 42px;
+  background-image: url("../../images/HOME\ ICON\ WHITE.png");
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.howto-btn {
+  width: 155px;
+  height: 42px;
+  background-image: url("../../images/HOW\ TO\ ICON.png");
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.howto-btn:hover {
+  width: 155px;
+  height: 42px;
+  background-image: url("../../images/HOW\ TO\ ICON\ WHITE.png");
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.random-btn {
+  width: 155px;
+  height: 42px;
+  background-image: url("../../images/RANDOM\ ICON.png");
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.random-btn:hover {
+  width: 155px;
+  height: 42px;
+  background-image: url("../../images/RANDOM\ ICON\ WHITE.png");
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gall-btn {
+  width: 155px;
+  height: 42px;
+  background-image: url("../../images/GALL\ ICON.png");
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.gall-btn:hover {
+  width: 155px;
+  height: 42px;
+  background-image: url("../../images/GALL\ ICON\ WHITE.png");
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
