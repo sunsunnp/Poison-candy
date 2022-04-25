@@ -1,6 +1,6 @@
-.bg-result {
-  background-image: url('../../images/BG-Result.png');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
+.bg-home {
+    background-image: url('../../images/BG-Home.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
