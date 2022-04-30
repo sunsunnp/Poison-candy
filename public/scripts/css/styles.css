@@ -38,6 +38,67 @@ p {
   background-size: cover;
 }
 
+.bg-result1 {
+  background-image: url('../../../public/images/bg-result-1.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 100%;
+}
+.bg-result2 {
+  background-image: url('../../../public/images/bg-result-2.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 100%;
+}
+.bg-result3 {
+  background-image: url('../../../public/images/bg-result-3.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 100%;
+}
+.bg-result4 {
+  background-image: url('../../../public/images/bg-result-4.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 100%;
+}
+.bg-result5 {
+  background-image: url('../../../public/images/bg-result-5.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 100%;
+}
+.bg-result6 {
+  background-image: url('../../../public/images/bg-result-6.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 100%;
+}
+.bg-result7 {
+  background-image: url('../../../public/images/bg-result-7.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 100%;
+}
+.bg-result8 {
+  background-image: url('../../../public/images/bg-result-8.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 100%;
+}
+.bg-result9 {
+  background-image: url('../../../public/images/bg-result-9.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 100%;
+}
+.bg-result10 {
+  background-image: url('../../../public/images/bg-result-10.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 100%;
+}
+
 .navbar-brand {
   margin-left: 2rem;
   margin-right: 0.1rem !important;
@@ -127,7 +188,7 @@ p {
 
 .letgo-btn {
   width: 210px;
-  height: 50px;
+  height: 60px;
   background-image: url('../../images/LETS\ GO.png');
   display: inline-block;
   background-repeat: no-repeat;
@@ -137,6 +198,24 @@ p {
   width: 210px;
   height: 50px;
   background-image: url('../../images/LETS\ GO\ WHITE.png');
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.position-btn {
+  width: 210px;
+  height: 60px;
+  background-image: url('../../images/POISON.png');
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.antidose-btn {
+  width: 210px;
+  height: 60px;
+  background-image: url('../../images/ANTIdOSE.png');
   display: inline-block;
   background-repeat: no-repeat;
   background-size: cover;
@@ -253,4 +332,21 @@ p {
 
 hr.new1 {
   border: 3px solid orange;
+}
+
+.ResultBtnImg1 {
+  width: auto;
+  height: 40px;
+  position: relative;
+  display: inline-block;
+}
+.ResultBtnImg1 .img-top {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+.ResultBtnImg1:hover .img-top {
+  display: inline;
 }
