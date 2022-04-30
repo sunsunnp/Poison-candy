@@ -28,72 +28,79 @@ p {
   background-image: url('../../images/BG-random.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;
+  background-size: 100%;
 }
 
 .bg-gallery {
-  background-image: url('../../images/BG.png');
+  background-image: url('../../images/gallery/BG-GALL2.png');
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-size: cover;
+  background-size: 100%;
+}
+
+.bg-result {
+  background-image: url('../../images/bg-result-1.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 100%;
 }
 
 .bg-result1 {
-  background-image: url('../../../public/images/bg-result-1.png');
+  background-image: url('../../images/bg-result-1.png');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: 100%;
 }
 .bg-result2 {
-  background-image: url('../../../public/images/bg-result-2.png');
+  background-image: url('../../images/bg-result-2.png');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: 100%;
 }
 .bg-result3 {
-  background-image: url('../../../public/images/bg-result-3.png');
+  background-image: url('../../images/bg-result-3.png');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: 100%;
 }
 .bg-result4 {
-  background-image: url('../../../public/images/bg-result-4.png');
+  background-image: url('../../images/bg-result-4.png');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: 100%;
 }
 .bg-result5 {
-  background-image: url('../../../public/images/bg-result-5.png');
+  background-image: url('../../images/bg-result-5.png');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: 100%;
 }
 .bg-result6 {
-  background-image: url('../../../public/images/bg-result-6.png');
+  background-image: url('../../images/bg-result-6.png');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: 100%;
 }
 .bg-result7 {
-  background-image: url('../../../public/images/bg-result-7.png');
+  background-image: url('../../images/bg-result-7.png');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: 100%;
 }
 .bg-result8 {
-  background-image: url('../../../public/images/bg-result-8.png');
+  background-image: url('../../images/bg-result-8.png');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: 100%;
 }
 .bg-result9 {
-  background-image: url('../../../public/images/bg-result-9.png');
+  background-image: url('../../images/bg-result-9.png');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: 100%;
 }
 .bg-result10 {
-  background-image: url('../../../public/images/bg-result-10.png');
+  background-image: url('../../images/bg-result-10.png');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: 100%;
@@ -187,35 +194,19 @@ p {
 }
 
 .letgo-btn {
-  width: 210px;
-  height: 60px;
+  width: 212px;
+  height: 52px;
+  margin-left: -12px;
   background-image: url('../../images/LETS\ GO.png');
   display: inline-block;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .letgo-btn:hover {
-  width: 210px;
-  height: 50px;
+  width: 212px;
+  height: 52px;
+  margin-left: -12px;
   background-image: url('../../images/LETS\ GO\ WHITE.png');
-  display: inline-block;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.position-btn {
-  width: 210px;
-  height: 60px;
-  background-image: url('../../images/POISON.png');
-  display: inline-block;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.antidose-btn {
-  width: 210px;
-  height: 60px;
-  background-image: url('../../images/ANTIdOSE.png');
   display: inline-block;
   background-repeat: no-repeat;
   background-size: cover;
@@ -297,6 +288,21 @@ p {
   margin-right: auto;
 }
 
+.gall-container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-gall {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 56px;
+  margin-top: 10px;
+}
+
 .home-card {
   width: 80%;
   margin-left: auto;
@@ -334,6 +340,12 @@ hr.new1 {
   border: 3px solid orange;
 }
 
+.borderH1 {
+  border: 3px solid black;
+  border-radius: 20px;
+  width: 195px;
+}
+
 .ResultBtnImg1 {
   width: auto;
   height: 40px;
@@ -349,4 +361,13 @@ hr.new1 {
 }
 .ResultBtnImg1:hover .img-top {
   display: inline;
+}
+
+.randomBtn {
+  position: absolute;
+  top: 105%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
 }

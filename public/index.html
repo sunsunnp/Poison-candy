@@ -24,6 +24,7 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <script src="scripts/js/index.js"></script>
   </head>
 
   <body class="bg-home">
@@ -36,12 +37,12 @@
       <div class="ms-auto">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a href="#" class="nav-item nav-link"
+            <a href="index.html" class="nav-item nav-link"
               ><div class="home-btn"></div
             ></a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-item nav-link"
+            <a class="nav-item nav-link" onclick="gotoDiv(1)"
               ><div class="howto-btn"></div
             ></a>
           </li>
@@ -56,12 +57,12 @@
             ></a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-item nav-link"
+            <a href="https://www.facebook.com/KcatKungfanpage" class="nav-item nav-link"
               ><img src="images/FB.png" height="40" alt="Facebook"
             /></a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-item nav-link"
+            <a href="https://www.instagram.com/kcatkung_art/" class="nav-item nav-link"
               ><img src="images/IG.png" height="40" alt="Instagram"
             /></a>
           </li>
@@ -87,7 +88,7 @@
               <div class="row">
                 <div class="col-1">
                   <button
-                    class="btn btn-link element-display-left mx-auto"
+                    class="btn btn-link element-display-left"
                     onclick="plusDivs(-1)"
                   >
                     <!-- &#10094; -->
@@ -123,7 +124,7 @@
                 </div>
                 <div class="col-1">
                   <button
-                    class="btn btn-link element-display-right mx-auto"
+                    class="btn btn-link element-display-right"
                     onclick="plusDivs(1)"
                   >
                     <img src="images/ไอค่อนคลิกขวา.png" height="32" />
@@ -135,21 +136,23 @@
         </div>
       </div>
     </div>
-    <div class="row home-container" style="margin-top: 20%">
-      <div class="col flexbox1">
-        <div class="card customcard2">
-          <div class="card-body">
-            <div class="row home-card">
-              <div class="col">
-                <h1>HOW TO PLAY</h1>
-                <hr class="new1" width="100%"/>
-                <br />
-                <h3>วิธีการเล่น</h3>
-                <p>1.คลิก "เขย่า" เพื่อสุ่มลูกอมต่างๆออกมาจากกล่อง</p>
-                <p>2.สามารถกดเข้าไปเพื่ออ่านรายละเอียดเพิ่มเติมของลูกอม</p>
-                <a href="#" class="nav-item nav-link"
-                  ><div class="letgo-btn"></div
-                ></a>
+    <div id="1">
+      <div class="row home-container" style="margin-top: 20%">
+        <div class="col flexbox1">
+          <div class="card customcard2">
+            <div class="card-body">
+              <div class="row home-card">
+                <div class="col">
+                  <h1>HOW TO PLAY</h1>
+                  <hr class="new1" width="100%" />
+                  <br />
+                  <h3>วิธีการเล่น</h3>
+                  <p>1.คลิก "เขย่า" เพื่อสุ่มลูกอมต่างๆออกมาจากกล่อง</p>
+                  <p>2.สามารถกดเข้าไปเพื่ออ่านรายละเอียดเพิ่มเติมของลูกอม</p>
+                  <a href="random.html" class="nav-item nav-link"
+                    ><div class="letgo-btn"></div
+                  ></a>
+                </div>
               </div>
             </div>
           </div>
@@ -162,7 +165,7 @@
           <div class="card-body">
             <div class="row home-card2">
               <div class="contactTitle" style="padding-top: 2%">
-                <h1>CONTACT</h1>
+                <div class="borderH1"><h1 class="text-center">CONTACT</h1></div>
               </div>
               <div class="row" style="padding-top: 5%">
                 <div class="col-6">
@@ -220,6 +223,7 @@
         }
         x[slideIndex - 1].style.display = 'block';
       }
+
     </script>
   </body>
 </html>
