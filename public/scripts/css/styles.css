@@ -46,61 +46,61 @@ p {
 }
 
 .bg-result1 {
-  background-image: url('../../images/bg-result-1.png');
+  background-image: url('../../images/bg-result-1-2.png');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: 100%;
 }
 .bg-result2 {
-  background-image: url('../../images/bg-result-2.png');
+  background-image: url('../../images/bg-result-2-2.png');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: 100%;
 }
 .bg-result3 {
-  background-image: url('../../images/bg-result-3.png');
+  background-image: url('../../images/bg-result-3-2.png');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: 100%;
 }
 .bg-result4 {
-  background-image: url('../../images/bg-result-4.png');
+  background-image: url('../../images/bg-result-4-2.png');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: 100%;
 }
 .bg-result5 {
-  background-image: url('../../images/bg-result-5.png');
+  background-image: url('../../images/bg-result-5-2.png');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: 100%;
 }
 .bg-result6 {
-  background-image: url('../../images/bg-result-6.png');
+  background-image: url('../../images/bg-result-6-2.png');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: 100%;
 }
 .bg-result7 {
-  background-image: url('../../images/bg-result-7.png');
+  background-image: url('../../images/bg-result-7-2.png');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: 100%;
 }
 .bg-result8 {
-  background-image: url('../../images/bg-result-8.png');
+  background-image: url('../../images/bg-result-8-2.png');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: 100%;
 }
 .bg-result9 {
-  background-image: url('../../images/bg-result-9.png');
+  background-image: url('../../images/bg-result-9-2.png');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: 100%;
 }
 .bg-result10 {
-  background-image: url('../../images/bg-result-10.png');
+  background-image: url('../../images/bg-result-10-2.png');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: 100%;
@@ -365,7 +365,7 @@ hr.new1 {
 
 .randomBtn {
   position: absolute;
-  top: 105%;
+  top: 90%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
