@@ -27,7 +27,7 @@ p {
 .bg-random {
   background-image: url('../../images/BG-random.png');
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-size: 100%;
 }
 
