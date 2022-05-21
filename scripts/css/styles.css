@@ -382,7 +382,7 @@ hr.new1 {
 
 .randomBtn {
   position: absolute;
-  top: 100%;
+  top: 105%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
